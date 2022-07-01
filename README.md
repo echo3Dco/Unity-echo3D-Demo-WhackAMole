@@ -15,7 +15,8 @@ Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https:/
 * Drag the echo3D script to the Mole prefab in the Prefab folder.
 * [Add the API key](https://docs.echo3D.co/unity/using-the-sdk) and entry ID for each object in the Inspector.
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/175661063-031a0d62-af0f-4335-be12-b73317527e54.png)
-![APIKeys](https://user-images.githubusercontent.com/99516371/175661091-be08d75f-dfe6-4577-b89c-b926fa3fd9ce.png)
+![Hierarchy](https://user-images.githubusercontent.com/99516371/176975081-2a74a432-ad22-4f77-834f-606d622e549f.png)
+
 * In the Hierarchy, make sure to the box is unchecked for the Sprite Renderer for Background
 * Press Play in Unity to see where the Background asset shows up in the scene so you can modify the [metadata](https://docs.echo3d.co/unity/transforming-content) in the console.
 * Adjust the [metadata](https://docs.echo3d.co/unity/transforming-content) to match the spawn points in the Hierarchy.

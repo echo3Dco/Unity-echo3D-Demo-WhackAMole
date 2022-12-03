@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7571135006183997997}
   - component: {fileID: 5210353095003933889}
   - component: {fileID: 357646443}
-  - component: {fileID: 1773983673}
+  - component: {fileID: 3241864542248180448}
   m_Layer: 0
   m_Name: Mole
   m_TagString: Untagged
@@ -110,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.76, y: 3.84}
   m_EdgeRadius: 0
---- !u!114 &1773983673
+--- !u!114 &3241864542248180448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,9 +119,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5049683493786923120}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: 
-  Entries: 
-  Tags: 
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
